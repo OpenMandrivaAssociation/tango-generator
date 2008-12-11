@@ -15,7 +15,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix: %{_prefix}
 Requires: python >= 2.4
 Requires: librsvg2
-Requires: ImageMagick
+Requires: imagemagick
 Requires: pygtk2.0 >= 2.6.3-2
 BuildRequires:	python-devel
 Url: http://mejogid.ohallwebservices.com/
