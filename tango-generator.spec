@@ -1,7 +1,7 @@
 %define name tango-generator
 %define version 3.2.1
 %define unmangled_version 3.2.1
-%define release 1
+%define release 2
 %define _unpackaged_files_terminate_build 0
 
 Summary: Tango Generator
