@@ -43,6 +43,12 @@ rm -rf $RPM_BUILD_ROOT
 %update_mime_database
 %update_desktop_database
 
-%files -f INSTALLED_FILES
+%files
 %defattr(-,root,root)
 %doc COPYING AUTHORS README
+%_bindir/tango-generator
+%_datadir/applications/tango-generator.desktop
+%_iconsdir/*/*/*/*
+%_datadir/mime/packages/*.xml
+%_datadir/tango-generator
+%py_platsitedir/*
