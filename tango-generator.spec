@@ -51,4 +51,4 @@ rm -rf $RPM_BUILD_ROOT
 %_iconsdir/*/*/*/*
 %_datadir/mime/packages/*.xml
 %_datadir/tango-generator
-%py_platsitedir/*
+%py_puresitedir/*
