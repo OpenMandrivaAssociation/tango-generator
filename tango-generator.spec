@@ -52,3 +52,27 @@ rm -rf $RPM_BUILD_ROOT
 %_datadir/mime/packages/*.xml
 %_datadir/tango-generator
 %py_puresitedir/*
+
+
+%changelog
+* Mon Nov 08 2010 Funda Wang <fwang@mandriva.org> 3.2.1-3mdv2011.0
++ Revision: 595052
+- update file list
+- update file list
+
+* Sun Sep 20 2009 Thierry Vignaud <tv@mandriva.org> 3.2.1-3mdv2010.0
++ Revision: 445348
+- rebuild
+
+* Tue Jan 06 2009 Funda Wang <fwang@mandriva.org> 3.2.1-2mdv2009.1
++ Revision: 326008
+- rebuild
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - lowercase ImageMagick
+
+* Sat Jan 05 2008 Jérôme Soyer <saispo@mandriva.org> 3.2.1-1mdv2008.1
++ Revision: 145835
+- import tango-generator
+
+
