@@ -18,7 +18,7 @@ Requires: librsvg2
 Requires: imagemagick
 Requires: pygtk2.0 >= 2.6.3-2
 BuildRequires:	python-devel
-Url: http://mejogid.ohallwebservices.com/
+Url: https://mejogid.ohallwebservices.com/
 
 %description
 An icon theme creation application
